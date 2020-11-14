@@ -1,0 +1,47 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@azure/storage-blob": "^12.1.1",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "axios": "^0.19.2",
+    "azure-storage": "^2.10.3",
+    "bootstrap": "^4.4.1",
+    "gh-pages": "^2.2.0",
+    "node-uuid": "^1.4.8",
+    "react": "^16.13.1",
+    "react-bootstrap": "^1.0.1",
+    "react-device-detect": "^1.12.1",
+    "react-dom": "^16.13.1",
+    "react-meta-tags": "^0.7.4",
+    "react-scripts": "3.4.1",
+    "react-simple-keyboard": "^2.3.31"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "homepage": "https://brooda.github.io/keystrokes"
+}
